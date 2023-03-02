@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WithFriendFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/one"
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:tag="one" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/two"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:tag="two" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/three"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:tag="three" />
+
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            app:dividerColor="@color/grey" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/four"
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:tag="four" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/five"
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:tag="five" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/six"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:tag="six" />
+
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            app:dividerColor="@color/grey" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/seven"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:tag="seven" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/eight"
+                android:layout_width="100dp"
+                android:layout_margin="5dp"
+                android:layout_height="100dp"
+                android:tag="eight" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:dividerColor="@color/grey" />
+
+            <View
+                android:id="@+id/nine"
+                android:layout_margin="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:tag="nine" />
+
+        </LinearLayout>
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            app:dividerColor="@color/grey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageView
+            android:id="@+id/cross_turn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/remove"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/circle_turn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/circle_circle"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText">
+
+        <TextView
+            android:id="@+id/tvCircleWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="0 wins"
+            android:drawablePadding="5dp"
+            android:textColor="@color/circle_colour"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:drawableTopCompat="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/tvCrossWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:textColor="@color/cross_colour"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="0 wins"
+            app:drawableTopCompat="@drawable/close" />
+
+        <TextView
+            android:id="@+id/tvDraws"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="0 draws"
+            app:drawableTopCompat="@drawable/draw" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/grey"
+        android:src="@drawable/restart"
+        app:borderWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

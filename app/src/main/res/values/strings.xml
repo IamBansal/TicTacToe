@@ -1,8 +1,6 @@
 <resources>
-    <string name="app_name">TicTacToe</string>
-    <string name="player_one_s_turn">Player one\'s turn.</string>
-    <string name="player_1_x_nplayer_2_o">Player 1 : X\nPlayer 2 : O</string>
-    <string name="play">Play Game Again</string>
-    <string name="player_two_turn">Player two\'s turn.</string>
-    <string name="start_over">Start Over</string>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="choose_your_play_mode">Choose your play mode</string>
+    <string name="with_a_friend">With a friend</string>
+    <string name="with_ai">With AI</string>
 </resources>
