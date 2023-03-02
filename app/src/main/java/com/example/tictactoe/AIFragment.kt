@@ -138,11 +138,12 @@ class AIFragment : Fragment() {
                 list.add(tag)
                 if (gameOver()) {
                     binding.linearLayout.alpha = 0.4f
+                    return
                 }
                 if (!isFirst) {
                     Handler(Looper.getMainLooper()).postDelayed({
                         invokeAIToPlay()
-                    }, 1500)
+                    }, 500)
                 }
             }
         }
